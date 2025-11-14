@@ -9,12 +9,13 @@ import { parse } from 'node-html-parser';
 // --- Firebase Configuration ---
 // IMPORTANT: In your Vercel project, you MUST set these as Environment Variables.
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: process.env.AIzaSyA8TptV1xahItjFpexfqB1OtEZ71DtaogA,
+  authDomain: process.env.money-d9517.firebaseapp.com,
+  databaseURL: "https://money-d9517-default-rtdb.firebaseio.com",
+  projectId: process.env.money-d9517,
+  storageBucket: process.env.money-d9517.firebasestorage.app,
+  messagingSenderId: process.env.1028474173381,
+  appId: process.env.1:1028474173381:web:6e2925596d3d8a58af7dac,
 };
 
 function initializeFirebase() {
